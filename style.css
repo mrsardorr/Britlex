@@ -1,0 +1,1403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*                           font-family: 'Poppins', sans-serif;                       */
+
+body {
+    background: white;
+}
+button{
+    cursor: pointer;
+    border: 0;
+}
+header{
+    padding-bottom: 160px;
+}
+header .navbar{
+    position: static;
+}
+header nav{
+    margin-top: 20px;
+}
+.logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    text-decoration: none;
+}
+.logo span{
+    color: #939393;
+}
+.logo:hover{
+    color: #000000;
+    text-decoration: none;
+}
+header nav .offcanvas-body{
+    justify-content: space-between;
+}
+header nav ul{
+    align-items: center;
+    margin-left: 250px;
+}
+header nav ul .nav-item{
+    margin-right: 30px;
+}
+header nav ul .nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #263238;
+}
+header nav .letstalk{
+    padding: 17px 57px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    background-color: transparent;
+    /* margin-left: 250px; */
+}
+header nav .navbar-toggler-icon{
+    background-image: url(img/NavBar_1.png);
+}
+header nav .navbar-toggler{
+    border: none;
+}
+header nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+header .header_main{
+    margin-top: 105px;
+}
+header .header_main h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 40px;
+    position: relative;
+    /* width: 270px; */
+}
+header .header_main h1 .lamp{
+    position: absolute;
+    bottom: 25px;
+    right: 80px;
+}
+header .header_main p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    margin-bottom: 60px;
+    width: 521px;
+}
+header .header_main button{
+    padding: 32px 117px;
+    background: #263238;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+header .header_main .girl{
+    max-width: 100%;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+
+/* =====================h=easder   */
+
+
+
+/* ===========skiills  */
+.skills{
+    margin-bottom: 250px;
+}
+
+.skills .long .speaking {
+    background: #F5F5F5;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 110px;
+    padding-bottom: 92px; */
+}
+.skills .long .speaking img{
+    margin-top: 80px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.skills h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+
+}
+.skills h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+}
+.skills .long .speaking h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    margin-left: 43px;
+    color: #8F95A5;
+}
+.skills button{
+    background: #263238;
+    border-radius: 5px;
+    padding: 17px 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: 0;
+    color: #FFFFFF;
+}
+.skills .trip .writing{
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+.skills .trip .reading{
+
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+.skills .trip .listening{
+
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.skills h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 63px;
+}
+/* ===========skiills  */
+
+/* ==========================aboutUS */
+.aboutUS{
+    margin-bottom: 220px;
+}
+
+.aboutUS h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.aboutUS p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 635px;
+    margin-bottom: 45px;
+}
+.aboutUS h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+    /* width: 190px; */
+}
+
+.aboutUS .h2{
+    display: flex;
+    
+}
+.aboutUS span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    
+}
+.aboutUS img{
+    width: 100%;
+    height: 110%;
+}
+
+/* ==========================aboutUS */
+
+/* ===============================Pricing */
+.pricing{
+    margin-bottom: 260px;
+}
+.pricing .box:nth-child(2){
+   padding-left: 50px;
+}
+.pricing .box:nth-child(2) p{
+    margin-bottom: 48px;
+ }
+.pricing .box:nth-child(3){
+    padding-left: 50px;
+ }
+ .pricing .box:nth-child(3) p{
+    margin-bottom: 48px;
+ }
+
+
+.pricing h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.pricing img{
+    margin-left: 35px;
+    margin-bottom: 40px;
+    height: 340px;
+}
+.pricing img:nth-child(1){
+    width: 330px;
+}
+.pricing h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+}
+.pricing p{
+    width: 635px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 420px;
+}
+.pricing h3{
+    background: #EEEEEE;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing h3 span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+    margin-left: 15px;
+}
+
+
+/* ===============================Pricing */
+
+
+
+/* ==============================contact US  */
+
+.contact{
+    margin-bottom: 133px;
+}
+.contact h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 37px;
+    margin-top: 40px;
+}
+.contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 751px;
+    margin-bottom: 52px;
+}
+.contact input{
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 33px 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    width: 450px;
+    outline: none;
+}
+.contact input::placeholder{
+    color: #8F95A5;
+}
+.contact button{
+    cursor: pointer;
+    background: #263238;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 23px 82px 26px;
+    margin-left: 10px;
+}
+.contact .box{
+    padding-left: 115px;
+}
+
+
+/* ==============================contact US  */
+
+
+/* ================foooooooooooooter */
+footer{
+    padding-bottom: 60px;
+}
+footer .container{
+    position: relative;
+}
+footer .container::before {
+    content: "";
+    position: absolute;
+    background-color: #C4C4C4;
+    height: 1px;
+    width: 98%;
+    top: -30px;
+    left: 1%;
+}
+footer .box{
+    display: flex;
+    align-items: center;
+}
+footer .box a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    text-decoration: none;
+}
+
+/* ================foooooooooooooter */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========skiills  */
+
+
+
+
+/* xl */
+@media (max-width:1400px) {
+    .skills .long .speaking img{
+        margin-left: 28px;
+        width: 85%;
+    }
+    .skills .long .speaking button{
+        margin-bottom: 205px;
+    }
+    .skills h2{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .skills h3{
+        margin-left: 30px;
+        width: 300px;
+        margin-bottom: 24px;
+    }
+    .skills .long .speaking h4{
+        width: 300px;
+        margin-left: 30px;
+    }
+    .skills button{
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .skills .trip .writing img{
+        margin-left: 69px;
+        margin-top: 20px;
+    }
+
+    .skills .trip .reading img{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    .skills .trip .reading h2{
+        margin-top: 33px;
+    }
+    
+
+
+
+    .skills .trip .listening {
+        padding-left: 29px;
+    }
+    .skills .trip .listening .listINFO{
+        width: 360px;
+    }
+    .skills .trip .listening .listINFO h2{
+        margin-top: 15px;
+    }
+    .skills .trip .listening .listINFO button{
+        margin-top: 40px;
+    }
+    .skills .trip .listening img{
+        width: 50%;
+        /* margin-left: 30px; */
+        /* margin-top: 43px; */
+        margin-bottom: 58px;
+    }
+
+    .pricing img{
+        margin-left: -15px;
+    }
+    .pricing h2{
+        font-size: 28px;
+    }
+    .pricing p{
+        width: 300px;
+    }
+    .contact img{
+        width: 100%;
+        height: 100%;
+    }
+    .contact p{
+        width: 600px;
+    }
+    .contact input{
+        width: 350px;
+    }
+    .contact button{
+        padding: 23px 70px 26px;
+    }
+    footer .box a{
+        font-size: 20px;
+    }
+}
+/* xl */
+/* xxl */
+@media (min-width:1400px) {
+    .skills .long .speaking img{
+        margin-left: 28px;
+        width: 85%;
+    }
+    .skills .long .speaking h4{
+        width: 310px;
+    }
+    .skills .long .speaking h2{
+        margin-top: 45px;
+        margin-left: 43px;
+    }
+    .skills .long .speaking h3{
+        margin-left: 43px;
+        margin-top: 5px;
+        margin-bottom: 45px;
+    }
+    .skills .long .speaking button{
+        margin-left: 43px;
+        margin-bottom: 62px;
+    }
+    .skills .trip .writing{
+        padding-left: 42px;
+        padding-bottom: 44px;
+    }
+    .skills .trip .writing img{
+        margin-left: 75px;
+        margin-top: 31px;
+    }
+    .skills .trip .writing h3{
+        margin-bottom: 33px;
+    }
+    .skills .trip .reading{
+        padding-top: 20px;
+        padding-left: 41px;
+        padding-bottom: 44px;
+    }
+    .skills .trip .reading h2{
+        margin-top: 15px;
+    }
+    .skills .trip .reading h3{
+        width: 355px;
+        margin-bottom: 35px;
+    }
+    .skills .trip .listening {
+        padding-left: 29px;
+    }
+    .skills .trip .listening .listINFO{
+        width: 360px;
+    }
+    .skills .trip .listening .listINFO h2{
+        margin-top: 15px;
+    }
+    .skills .trip .listening .listINFO button{
+        margin-top: 40px;
+    }
+    .skills .trip .listening img{
+        width: 50%;
+        margin-left: 30px;
+        margin-top: 43px;
+        margin-bottom: 58px;
+    }
+}
+/* xxl */
+
+/* LG  */
+
+@media (max-width:1200px) {
+    header .header_main h1{
+        font-size: 48px;
+    }
+    header .header_main h1 .lamp{
+        bottom: 11px;
+        right: 20px;
+    }
+    header .header_main p{
+        font-size: 20px;
+    }
+    header .header_main button{
+        padding: 22px 78px;
+    }
+    header .header_main .girl{
+        height: 100%;
+    }
+    .skills h3{
+        width: 231px;
+    }
+    .skills .long .speaking h4{
+        width: 236px;
+    }
+    .skills .long .speaking button{
+        margin-bottom: 205px;
+    }
+    .skills .trip .writing img{
+        margin-left: 13px;
+        margin-top: 20px;
+    }
+    .skills .trip .reading img{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 250px;
+    }
+    .skills .reading button{
+        margin-top: 23px;
+    }
+    .skills .trip .listening .listINFO{
+        width: 300px !important;
+    }
+    .skills .trip .listening .listINFO button{
+        margin-top: -5px;
+    }
+    .skills h3{
+        width: 238px;
+    }
+    .skills .long .speaking button{
+        margin-bottom: 179px;
+    }
+    .aboutUS p{
+        width: 560px;
+    }
+    .pricing h2{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 34px;
+        color: #263238;
+    }
+    .pricing p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        width: 205px;
+    }
+    .pricing h3 span{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing img:nth-child(1){
+        width: 267px;
+        margin-bottom: -9px;
+    }
+    .pricing h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+    .aboutUS h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 80px;
+    }
+    .aboutUS p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .aboutUS h2{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+        margin-right: 84px;
+    }
+    .aboutUS span{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing p{
+        width: 292.5px;
+    }
+    .contact h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 80px;
+    }
+    .contact p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 23px 42px 26px;
+    }
+    .contact input{
+        padding: 22px 33px 25px;
+        width: 330px;
+    }
+    .contact p{
+        width: 460px;
+    }
+    .contact img{
+        height: 120%;
+    }
+    footer .box a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* LG  */
+
+
+
+
+/* ===========skiills  */
+
+
+
+
+
+
+
+
+
+/* =================== NAVBAR MEDIA  */
+
+
+@media (max-width:1400px) {
+    header nav ul{
+        margin-left: 150px;
+    }
+    header .header_main h1 .lamp{
+        position: absolute;
+        bottom: 25px;
+        right: 0px;
+    }
+}
+@media (min-width:1200px) {
+    header nav ul{
+        margin-left: 120px;
+    }
+}
+@media (min-width:1400px) {
+    header nav ul{
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:990px) {
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:991px) {
+    .offcanvas.offcanvas-end{
+        width: 60%;
+    }
+    header nav ul{
+        margin-left: auto;
+    }
+    .navbar-nav{
+        display: block;
+    }
+    header nav ul .nav-item{
+        margin-top: 25px;
+    }
+    header nav .letstalk{
+        margin-top: 65px;
+    }
+    header nav .logo{
+        font-size: 50px;
+    }
+    header nav ul .nav-link{
+        font-size: 32px;
+    }
+    .offcanvas-header{
+        position: relative;
+    }
+    .offcanvas-header::after{
+        content: "";
+        position: absolute;
+        background: #C4C4C4;
+        width: 96%;
+        height: 1px;
+        bottom: 0;
+        left: 16px;
+    }
+
+}
+
+@media (max-width:1199px) {
+    header nav ul{
+        margin-left: 60px;
+    }
+    header nav .container {
+        max-width: 1140px;
+    }
+    header nav .letstalk{
+        padding: 12px 35px;
+        font-size: 20px;
+    }
+    header nav .logo{
+        font-size: 36px;
+    }
+    header nav ul .nav-link{
+        font-size: 16px;
+    }
+}
+@media (max-width:767px) {
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
+}
+
+
+
+
+/* =================== NAVBAR MEDIA  */
+
+
+/* MD  */
+
+@media (max-width:991px) {
+    header .header_main h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    header .header_main p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 333px;
+    }
+    header .header_main h1 .lamp{
+        bottom: -6px;
+        right: 39px;
+        height: 73px;
+        width: 70px;
+    }
+    header .header_main button{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 19px 67px;
+    }
+    header .header_main .girl{
+        height: 80%;
+    }
+    header{
+        padding-bottom: 50px;
+    }
+    .skills .long .speaking img{
+        margin-left: 18px;
+        width: 82%;
+        margin-top: 50px;
+    }
+    .skills h2{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .skills h3{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .skills .long .speaking h4{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .skills .trip .writing img{
+        width: 85%;
+        margin-left: 17px;
+    }
+    .skills .trip .reading img{
+        width: 80%;
+    }
+    .skills h3{
+        width: 169px;
+    }
+    .skills .long .speaking h4{
+        width: 167px;
+    }
+    .skills button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 14px 36px;
+    }
+    .skills .trip .listening .listINFO{
+        width: 220px !important;
+    }
+    .skills .trip .listening .listINFO h2{
+        margin-left: -7px;
+        line-height: 33px;
+    }
+    .skills .trip .listening .listINFO h3{
+        margin-left: -7px;
+        width: 256px;
+    }
+    .skills .trip .listening .listINFO button{
+        margin-left: -5px;
+    }
+    .skills .trip .listening img{
+        margin-bottom: -16px;
+    }
+    .skills .long .speaking button{
+        margin-bottom: 112px;
+    }
+    .skills .reading button{
+        margin-top: 13px;
+    }
+    .aboutUS h1{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+        margin-bottom: auto;
+    }
+    .aboutUS p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        width: 321px;
+        margin-bottom: 10px;
+    }
+    .aboutUS h2{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 60px;
+        margin-right: 56px;
+    }
+    .aboutUS h2 span{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .skills{
+        margin-bottom: 100px;
+    }
+    .aboutUS{
+        margin-bottom: 100px;
+    }
+    .pricing img:nth-child(1){
+        width: 216px;
+    }
+    .pricing h2{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pricing h1{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .pricing p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;    
+        width: 195.5px;    
+    }
+    .pricing h3{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .pricing h3 span{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing .box:nth-child(2) p{
+        margin-bottom: 63px;
+    }
+    .pricing .box:nth-child(3) p{
+        margin-bottom: 63px;
+    }
+    .pricing .box:nth-child(2){
+        padding-left: 36px;
+    }
+    .contact h1{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;    
+        margin: auto;
+    }
+    .contact p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .contact input{
+        padding: 16px 24px;
+        width: 283px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .contact button{
+        padding: 15px 39px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .pricing{
+        margin-bottom: 100px;
+    }
+    .contact img{
+        width: 220%;
+    }
+    footer .box a{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+/* MD  */
+
+
+
+/* SM  */
+
+@media (max-width:767px) {
+    header .header_main .d-flex{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    header .header_main h1{
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 45px;
+        text-align: center;
+    }
+    header .header_main h1 .lamp{
+        display: none;
+    }
+    header .header_main p{
+        width: auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    header .header_main button{
+        display: block;
+        margin: auto;
+        padding: 19px 93px;
+    }
+    header .header_main{
+        margin-top: 5px;
+    }
+    .skills .long .speaking{
+        margin-bottom: 30px;
+    }
+    .skills h2{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .skills h3{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        width: 90%;
+    }
+    .skills .long .speaking h4{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        width: 90%;
+    }
+    .skills .trip .writing{
+        margin-bottom: 30px;
+    }
+    .skills .trip .writing img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .skills button{
+        padding: 20px 80px;
+    }
+    .skills .trip .listening .row{
+        flex-direction: column-reverse;
+    }
+    .skills .trip .listening .listINFO{
+        width: 90% !important;
+    }
+    .skills .trip .listening .listINFO h2{
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .skills .trip .listening .listINFO h3{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        width: 90%;
+    }
+    .skills .trip .listening img{
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .skills .long .speaking img{
+        margin-left: 40px;
+    }
+    .aboutUS .row{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .aboutUS h1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .aboutUS p{
+        text-align: center;
+        width: 100%;
+    }
+    .aboutUS .h2{
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+    .aboutUS h2:first-child{
+        margin-left: 7%;
+    }
+    .pricing img{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    .pricing h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .pricing p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pricing h3{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .contact img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .contact .box{
+        padding-left: initial;
+    }
+    .contact h1{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 80px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact input{
+        margin-left: 13%;
+    }
+    .contact button{
+        margin-left: -24px;
+        padding: 16px 39px;
+    }
+}
+
+/* SM  */
+
+
+/* XS  */
+
+@media (max-width:575px) {
+    header .header_main h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    header .header_main p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        width: 100%;
+    }
+    header .header_main button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 79px;
+    }
+    .skills .long .speaking button{
+        margin-bottom: 70px;
+    }
+    .skills h2{
+        font-size: 25px;
+        line-height: 80px;
+    }
+    .skills h3{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .skills .long .speaking h4{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .skills button{
+        padding: 20px 54px;
+    }
+    .skills .trip .listening .listINFO h2{
+        font-size: 25px;
+        line-height: 80px;
+    }
+    .skills .trip .listening .listINFO h3{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .aboutUS h2:first-child{
+        margin-left: 20%;
+    }
+    .aboutUS h2:nth-child(2){
+        margin-left: 19%;
+    }
+    .aboutUS h2:nth-child(3){
+        margin-left: 19%;
+    }
+    .aboutUS .h2{
+        flex-direction: column;
+    }
+    .skills .long .speaking img{
+        margin-left: 10px;
+    }
+    .contact input{
+        margin-left: 2%;
+        width: 100%;
+    }
+    .contact button{
+        margin-left: 2%;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .pricing .box:nth-child(2){
+        padding-left: initial;
+    }
+    .pricing .box:nth-child(3){
+        padding-left: initial;
+    }
+    footer .col-12{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .box a{
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        margin-top: 15px;
+    }
+    footer{
+        padding-bottom: 35px;
+    }
+    footer .justify-content-end{
+        justify-content: center !important;
+    }
+}
+
+/* XS  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* transparent scrollbar */
+/* body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border: 2px solid #ffffff2f;
+    border-radius: 20px;
+  } */
+
+  body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #263238;
+    border-radius: 6px;
+}
